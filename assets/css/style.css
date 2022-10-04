@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: hsl(180, 78%, 5%);
+
+}
+.header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+a:hover {color: rgb(14, 90, 128);}
+
+
+.main {
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    max-width: 75%;
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(38, 35, 35);
+    border-radius: 30px;
+
+}
+
+
+.btn {
+    background-color: hsl(342, 77%, 32%);
+    color: white;
+    font-size: large;
+    
+}
+
+.btn.submit-btn {
+    border-width: 2px;
+    padding: 5px;
+    font-size: medium;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: hsl(201, 84%, 7%);
+}
+.btn.correct {
+    background-color: yellow;
+}
+
+.btn.wrong {
+    background-color: hsl(0, 100%, 30%);
+}
+
