@@ -8,7 +8,7 @@ const questionsLists= [
             { answer: 'zero or more characters written outside bracket', correct: false }]
     },
 
-    {// Updated 1/30/21
+    {
         question: 'How many speical variable can array hold ?',
         answersArray: [
             { answer: '1', correct: false }, 
@@ -17,7 +17,7 @@ const questionsLists= [
             { answer: 'B and C ', correct: true }]
     },
 
-    { // Updated 1/30/21
+    { 
         question: 'how does Javascript functions are defined`?',
         answersArray: [
             { answer: 'FUN', correct: false },  
@@ -40,7 +40,7 @@ const questionsLists= [
         answersArray: [
             { answer: 'Yes', correct: false},  
             { answer: 'No', correct: true },
-            { answer: '+Soemtimes', correct: false },
+            { answer: 'Soemtimes', correct: false },
             { answer: 'Most of the times', correct: false }]
     }
 
@@ -126,7 +126,6 @@ function getCorrectAnswer(currentQuestion) {
     let arr = questionBank[currentQuestion].answersArray;
     for (let j = 0; j < arr.length; j++) {
         if (arr[j].correct) {
-            // return correct answer.
             return arr[j].answer
         }
     }
