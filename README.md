@@ -18,4 +18,4 @@ During this project. I used the following techonlogies
 N/A
 
 ## Deployed link
-https://github.com/rlee7029/Quiz
+https://rlee7029.github.io/module4-code-quiz/
